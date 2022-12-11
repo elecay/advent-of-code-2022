@@ -1,19 +1,8 @@
 from typing import List
 
-from utils import read_file
+from utils import read_file, main
 
-lines_example = read_file("day-01/example.txt")
-lines_input = read_file("day-01/input.txt")
-
-
-def main(part: int, run_input: bool = False):
-    lines = lines_example
-    if run_input:
-        lines = lines_input
-
-    if part == 1:
-        return engine_part_1(lines)
-    return engine_part_2(lines)
+LINES = read_file("day_01/input.txt")
 
 
 def engine_part_1(lines: List[str]):
@@ -48,5 +37,5 @@ def get_elf_cal(lines: List[str]):
     return sorted(elf_cal.items(), key=lambda item: -item[1])
 
 
-print(f"Part 1: {main(1, True)}")
-print(f"Part 2: {main(2, True)}")
+print(f"Part 1: {main(LINES, engine_part_1)}")
+print(f"Part 2: {main(LINES, engine_part_2)}")

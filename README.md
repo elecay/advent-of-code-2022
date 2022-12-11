@@ -28,9 +28,10 @@ puzzle is unlocked when you complete the first. Each puzzle grants one star. Goo
 
 ## Progress
 
-| Day                                                                                    | Part One | Part Two |
-|----------------------------------------------------------------------------------------|:---:|:---:|
-| [Day 1: Calorie Counting](https://github.com/elecay/advent-of-code-2022/tree/main/day-01) | 🌟 | 🌟 |
+| Day                                                                                       | Part One | Part Two |
+|-------------------------------------------------------------------------------------------|:---:|:---:|
+| [Day 1: Calorie Counting](https://github.com/elecay/advent-of-code-2022/tree/main/day_01) | 🌟 | 🌟 |
+| [Day 2: Rock Paper Scissors](https://github.com/elecay/advent-of-code-2022/tree/main/day_02) | 🌟 | 🌟 |
 
 ## Running Tests
 
