@@ -3,7 +3,7 @@ import os
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
-from typing import List
+from typing import List, Callable
 
 
 def read_file(path: str):
@@ -11,5 +11,5 @@ def read_file(path: str):
         return file.read().splitlines()
 
 
-def main(lines: List[str], engine: callable):
+def main(lines: List[str], engine: Callable):
     return engine(lines)

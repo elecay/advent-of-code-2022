@@ -1,6 +1,6 @@
 from typing import List
 
-from utils import read_file, main
+from utils import main, read_file
 
 LINES = read_file("day_01/input.txt")
 

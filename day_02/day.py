@@ -1,49 +1,21 @@
 from typing import List
 
-from utils import read_file, main
+from utils import main, read_file
 
 LINES = read_file("day_02/input.txt")
 
-SHAPE_PTS_MAPPER = {
-    "A": 1,
-    "B": 2,
-    "C": 3
-}
+SHAPE_PTS_MAPPER = {"A": 1, "B": 2, "C": 3}
 
-SHAPES_EQUIVALENCE = {
-    "X": "A",
-    "Y": "B",
-    "Z": "C"
-}
+SHAPES_EQUIVALENCE = {"X": "A", "Y": "B", "Z": "C"}
 
-WINNER_MAPPER = {
-    "A": "B",
-    "B": "C",
-    "C": "A"
-}
+WINNER_MAPPER = {"A": "B", "B": "C", "C": "A"}
 
-GAME_PTS_RESULT = {
-    "WIN": 6,
-    "DRAW": 3,
-    "LOST": 0
-}
+GAME_PTS_RESULT = {"WIN": 6, "DRAW": 3, "LOST": 0}
 
 SHAPES_RESULT_MAPPER = {
-    "A": {
-        "Z": WINNER_MAPPER["A"],
-        "X": "C",
-        "Y": "A"
-    },
-    "B": {
-        "Z": WINNER_MAPPER["B"],
-        "X": "A",
-        "Y": "B"
-    },
-    "C": {
-        "Z": WINNER_MAPPER["C"],
-        "X": "B",
-        "Y": "C"
-    }
+    "A": {"Z": WINNER_MAPPER["A"], "X": "C", "Y": "A"},
+    "B": {"Z": WINNER_MAPPER["B"], "X": "A", "Y": "B"},
+    "C": {"Z": WINNER_MAPPER["C"], "X": "B", "Y": "C"},
 }
 
 
