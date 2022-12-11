@@ -1,9 +1,8 @@
 import os
 
+from typing import Callable, List
 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
-
-from typing import List, Callable
 
 
 def read_file(path: str):
