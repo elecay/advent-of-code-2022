@@ -1,7 +1,7 @@
 # Advent of Code 2022
 
 Advent of Code 2022 🎄 Python Solutions by `@elecay` 😊
-[Twitter](https://twitter.com/elecay)
+[Twitter](https://twitter.com/elecccay)
 
 [![Tests Status](https://github.com/elecay/advent-of-code-2022/actions/workflows/test.yml/badge.svg)](https://github.com/elecay/advent-of-code-2022/actions/workflows/test.yml)
 [![super-linter](https://github.com/elecay/advent-of-code-2022/actions/workflows/super-linter.yml/badge.svg)](https://github.com/elecay/advent-of-code-2022/actions/workflows/super-linter.yml)
@@ -28,10 +28,11 @@ puzzle is unlocked when you complete the first. Each puzzle grants one star. Goo
 
 ## Progress
 
-| Day                                                                                       | Part One | Part Two |
-|-------------------------------------------------------------------------------------------|:---:|:---:|
-| [Day 1: Calorie Counting](https://github.com/elecay/advent-of-code-2022/tree/main/day_01) | 🌟 | 🌟 |
+| Day                                                                                          | Part One | Part Two |
+|----------------------------------------------------------------------------------------------|:---:|:---:|
+| [Day 1: Calorie Counting](https://github.com/elecay/advent-of-code-2022/tree/main/day_01)    | 🌟 | 🌟 |
 | [Day 2: Rock Paper Scissors](https://github.com/elecay/advent-of-code-2022/tree/main/day_02) | 🌟 | 🌟 |
+| [Day 3: Rucksack Reorganization](https://github.com/elecay/advent-of-code-2022/tree/main/day_03) | 🌟 | 🌟 |
 
 ## Running Tests
 
